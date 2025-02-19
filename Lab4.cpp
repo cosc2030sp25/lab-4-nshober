@@ -90,9 +90,9 @@ string stringReverse(string toReverse)
 {
     stack<char> reverse; //declare the stack
     string newString = "";
-    for (char letter : toReverse)
+    for (int i = 0; i < toReverse.size(); ++i)
     {
-        reverse.push(letter);
+        reverse.push(toReverse[i]);
     }
     while (!reverse.empty()) {
         newString += reverse.top();
