@@ -1,3 +1,3 @@
 # Lab 4
-Name:\
-Help Received:
+Name: Nina Shober
+Help Received: TA
